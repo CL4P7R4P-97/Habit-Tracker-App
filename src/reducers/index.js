@@ -27,6 +27,7 @@ import {
     localStorage.setItem('habits', JSON.stringify(updatedHabitss));
     return {
     ...state,
+    error: null,
     habits: updatedHabitss,
     };
     case GET_HABITS_REQUEST:
@@ -39,7 +40,7 @@ import {
     case GET_HABITS_SUCCESS:
     
      
-    console.log('getting payload', action.payload);
+     
     return {
     ...state,
     habits: action.payload,

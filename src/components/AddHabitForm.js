@@ -24,7 +24,6 @@ const AddHabitForm = ({ onClose, onAddHabit }) => {
   };
 
    
-
   
 
   const getInitialStatus = () => {

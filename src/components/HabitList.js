@@ -14,10 +14,7 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
   const [editMode, setEditMode] = useState(false);
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    console.log(habits);
-  }, [ ]);
-
+ 
   const handleDelete = (habitId) => {
     onDeleteHabit(habitId);
   };
@@ -38,6 +35,11 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
 
     dispatch(updateHabit(habit));
   }
+
+  // useEffect(() => {
+     
+  // }, [dispatch ]);
+
 
   if (loading) {
     return <div>Loading...</div>;

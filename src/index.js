@@ -18,7 +18,7 @@ import  thunk from 'redux-thunk';
 const logger  = ({dispatch, getState}) =>(next) =>(action)=> {
   
   if(typeof action !== 'function'){
-    console.log('ACTION',action);
+    console.log('ACTION',action.type);
   }
   next(action)} ;
 

@@ -9,7 +9,7 @@ const ViewHabit = ({ habit, setOpen }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    console.log(habit);
+     
   }, []);
 
   const handleStatusChange = (date, value) => {
