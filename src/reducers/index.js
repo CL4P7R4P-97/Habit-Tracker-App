@@ -48,8 +48,9 @@ import {
     };
 
     case GET_HABITS_FAILURE:
-    const error = action.payload;
-    console.log('failure', error);
+    
+     
+     
     return {
     ...state,
     habits: [],

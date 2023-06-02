@@ -4,6 +4,10 @@ import React from 'react';
 import './Navbar.css';
  
 const Navbar = ({ toggleAddForm    }) => {
+
+
+  
+
   return (
     <nav className="navbar">
       <div className="navbar__logo">Habit-Tracker <img src='https://img.icons8.com/?size=1x&id=ZZQAqigZT80G&format=gif'></img></div>

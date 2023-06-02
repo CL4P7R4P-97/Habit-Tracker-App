@@ -16,7 +16,7 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
 
   useEffect(() => {
     console.log(habits);
-  }, []);
+  }, [ ]);
 
   const handleDelete = (habitId) => {
     onDeleteHabit(habitId);
@@ -44,7 +44,7 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
   }
 
   if (error) {
-    return <div>Error: {error}</div>;
+    return <div><NoHabitsFound /></div>;
   }
 
   return (

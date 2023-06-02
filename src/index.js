@@ -13,7 +13,7 @@ import {createStore, applyMiddleware} from 'redux';
 import  thunk from 'redux-thunk';
  
 
-
+ 
 
 const logger  = ({dispatch, getState}) =>(next) =>(action)=> {
   
@@ -24,7 +24,7 @@ const logger  = ({dispatch, getState}) =>(next) =>(action)=> {
 
 
   const store = createStore(habitReducer, applyMiddleware(logger, thunk));
-  console.log('store', store);
+  
  
 
 

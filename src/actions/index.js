@@ -78,11 +78,14 @@ export const getHabitsRequest = () => {
 
     try {
       const storedHabits =  localStorage.getItem('habits');
+       
       console.log('fetched from storage', storedHabits);
 
       if (storedHabits) {
         dispatch(getHabitsSuccess(JSON.parse(storedHabits)));
       } else {
+        var nHabits = [];
+        localStorage.setItem('habits', JSON.stringify(nHabits));
         dispatch(getHabitsFailure('Habits not found'));
       }
     } catch (error) {
