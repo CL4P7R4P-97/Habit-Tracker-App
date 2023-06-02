@@ -1,0 +1,98 @@
+/* HabitList.css */
+
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.habit-item {
+  display: flex;
+  align-items: center;
+  opacity: .8;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e2c8c8;
+  border-radius: 5px;
+  box-shadow: 0 30px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  height: 3rem;
+}
+
+.habit-item__name {
+  flex-grow: 1;
+  font-size: 25px;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+
+.habit-item__buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.habit-item__button {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.habit-item__button:hover {
+  background-color: #45a049;
+}
+
+.habit-item__view-button {
+  background-color: #2196f3;
+}
+
+.habit-item__view-button:hover {
+  background-color: #1976d2;
+}
+
+.habit-item__delete-button {
+  background-color: #f44336;
+}
+
+.habit-item__delete-button:hover {
+  background-color: #d32f2f;
+}
+.habit-item__view-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.habit-item__view-button img  {
+  width:  20px; /* Adjust the width as per your preference */
+  height:  20px; /* Adjust the height as per your preference */
+  margin-right: 0.5rem; /* Add margin as desired to create spacing between the image and text */
+  margin-bottom: -1px;
+}
+
+.editLogo ,.imgD {
+  margin-right: 20px;
+  width: 30px; /* Adjust the width as per your preference */
+  height: 28px; /* Adjust the height as per your preference */
+  margin-right: 0.8rem; /* Add margin as desired to create spacing between the image and text */
+  cursor: pointer;
+}
+
+.habit-item__delete-button {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+ 
+}
+
+.habit-item__delete-button img {
+  width: 20px; /* Adjust the width as per your preference */
+  height: 20px; /* Adjust the height as per your preference */
+  margin-right: 0.5rem; /* Add margin as desired to create spacing between the image and text */
+  margin-bottom: 1px;
+}

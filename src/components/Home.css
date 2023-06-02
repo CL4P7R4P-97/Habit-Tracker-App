@@ -1,0 +1,50 @@
+/* Home.css */
+
+.home-container {
+    padding: 20px;
+  }
+  
+  .page-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .habit-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .habit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .habit-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .habit-name {
+    margin-right: 10px;
+  }
+  
+  .delete-button,
+  .status-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .delete-button:hover,
+  .status-button:hover {
+    background-color: #ff7f50;
+  }
+  
