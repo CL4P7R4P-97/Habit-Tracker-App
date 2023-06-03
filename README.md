@@ -2,7 +2,7 @@
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFzK7V4Nb94qP4iQRsiSfyFD3b2MCbHiAIQ&usqp=CAU)
 # Habit Tracker App
 
-A cool app with pure Vanilla Javascript features displaying you favourite heroes.
+A cool app to track your daily routine habits. Do it Now!
 
 
 ## Features
