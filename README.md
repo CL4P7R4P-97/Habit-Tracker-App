@@ -1,4 +1,65 @@
-# Getting Started with Create React App
+
+![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFzK7V4Nb94qP4iQRsiSfyFD3b2MCbHiAIQ&usqp=CAU)
+# Habit Tracker App
+
+A cool app with pure Vanilla Javascript features displaying you favourite heroes.
+
+
+## Features
+
+- Add Habits
+- Add/ Remove habits from list
+- Persisiting records
+- APIs, Redux, Hooks
+
+
+
+
+## Languages
+
+
+
+![HTML-5](https://img.shields.io/badge/1-HTML%205-yellow)
+
+![css-3](https://img.shields.io/badge/2-CSS%203-blue)
+
+![React JS](https://img.shields.io/badge/3-React%20JS-green)
+
+
+## Features Demo
+
+#### 1. HomePage
+
+![App Screenshot](https://user-images.githubusercontent.com/57012258/243107743-8e57cb02-706c-4baa-b3bd-3ecaf344a9d9.gif)
+
+#### 2. Adding/ Removing Habits and more
+![image description](https://user-images.githubusercontent.com/57012258/243107639-b890a3cc-d46f-4f55-a56f-e540fbdf06ab.gif)
+ 
+
+#### 3. ViewHabits 
+![image description](https://user-images.githubusercontent.com/57012258/243107959-8924e6c3-257e-45df-a672-95a09e0c2b0b.gif)
+
+ 
+
+ 
+## Screenshots
+
+
+
+![](https://user-images.githubusercontent.com/57012258/243106417-c255342e-5bea-4e38-9b0f-d0e888b487ac.png)
+
+![](https://user-images.githubusercontent.com/57012258/243106437-1b92d31a-8452-45d8-89d9-dd469a4692f7.png)
+
+![](https://user-images.githubusercontent.com/57012258/243106453-dd551cac-d994-4716-88e1-ad95079572ed.png)
+
+ 
+- [Check on Youtube](https://youtu.be/6bjLr0SEEbo)
+
+## Authors
+
+- [@CL4P7R4P](https://github.com/CL4P7R4P-97)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -69,64 +130,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-##
 
-![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREFzK7V4Nb94qP4iQRsiSfyFD3b2MCbHiAIQ&usqp=CAU)
-# Habit Tracker App
-
-A cool app with pure Vanilla Javascript features displaying you favourite heroes.
-
-
-## Features
-
-- Add Habits
-- Add/ Remove habits from list
-- Persisiting records
-- APIs, Redux, Hooks
-
-
-
-
-## Languages
-
-
-
-![HTML-5](https://img.shields.io/badge/1-HTML%205-yellow)
-
-![css-3](https://img.shields.io/badge/2-CSS%203-blue)
-
-![React JS](https://img.shields.io/badge/3-React%20JS-green)
-
-
-## Features Demo
-
-#### 1. HomePage
-
-![App Screenshot](https://user-images.githubusercontent.com/57012258/243107743-8e57cb02-706c-4baa-b3bd-3ecaf344a9d9.gif)
-
-#### 2. Adding/ Removing Habits and more
-![image description](https://user-images.githubusercontent.com/57012258/243107639-b890a3cc-d46f-4f55-a56f-e540fbdf06ab.gif)
- 
-
-#### 3. ViewHabits 
-![image description](https://user-images.githubusercontent.com/57012258/243107959-8924e6c3-257e-45df-a672-95a09e0c2b0b.gif)
-
- 
-
- 
-## Screenshots
-
-
-
-![](https://user-images.githubusercontent.com/57012258/243106417-c255342e-5bea-4e38-9b0f-d0e888b487ac.png)
-
-![](https://user-images.githubusercontent.com/57012258/243106437-1b92d31a-8452-45d8-89d9-dd469a4692f7.png)
-
-![](https://user-images.githubusercontent.com/57012258/243106453-dd551cac-d994-4716-88e1-ad95079572ed.png)
-
- 
-- [Check on Youtube](https://youtu.be/6bjLr0SEEbo)
-
-## Authors
-
-- [@CL4P7R4P](https://github.com/CL4P7R4P-97)
