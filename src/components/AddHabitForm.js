@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import './AddHabitForm.css';
 
 const AddHabitForm = ({ onClose, onAddHabit }) => {
@@ -7,7 +7,6 @@ const AddHabitForm = ({ onClose, onAddHabit }) => {
   const handleInputChange = (event) => {
     setHabitName(event.target.value);
   };
-
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -22,9 +21,6 @@ const AddHabitForm = ({ onClose, onAddHabit }) => {
       setHabitName('');
     }
   };
-
-   
-  
 
   const getInitialStatus = () => {
     const initialStatus = {};

@@ -9,7 +9,7 @@ const ViewHabit = ({ habit, setOpen }) => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-     
+    console.log(habit);
   }, []);
 
   const handleStatusChange = (date, value) => {
@@ -65,7 +65,7 @@ const ViewHabit = ({ habit, setOpen }) => {
         <button className="close-button" onClick={handleClose}>
           &times;
         </button>
-        <h3 className="habit-name">{habit.name}</h3>
+        <h3 className="habit-name">{habit.name.length > 10 ? habit.name.substring(0,10)+'...':habit.name}</h3>
         <div className="habit-status">{renderStatusOptions()}</div>
       </div>
     </div>

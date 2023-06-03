@@ -13,18 +13,18 @@ import {createStore, applyMiddleware} from 'redux';
 import  thunk from 'redux-thunk';
  
 
- 
+
 
 const logger  = ({dispatch, getState}) =>(next) =>(action)=> {
   
   if(typeof action !== 'function'){
-    console.log('ACTION',action.type);
+    console.log('ACTION',action);
   }
   next(action)} ;
 
 
   const store = createStore(habitReducer, applyMiddleware(logger, thunk));
-  
+  console.log('store', store);
  
 
 

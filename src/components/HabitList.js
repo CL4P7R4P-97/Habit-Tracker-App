@@ -14,7 +14,10 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
   const [editMode, setEditMode] = useState(false);
   const dispatch = useDispatch();
 
- 
+  useEffect(() => {
+    console.log(habits);
+  }, []);
+
   const handleDelete = (habitId) => {
     onDeleteHabit(habitId);
   };
@@ -36,17 +39,12 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
     dispatch(updateHabit(habit));
   }
 
-  // useEffect(() => {
-     
-  // }, [dispatch ]);
-
-
   if (loading) {
     return <div>Loading...</div>;
   }
 
   if (error) {
-    return <div><NoHabitsFound /></div>;
+    return <div>Error: {error}</div>;
   }
 
   return (
@@ -54,8 +52,8 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
       {habits.length !== 0 ? (
         habits.map((habit) => (
           <div key={habit.id} className="habit-item">
-            <span className="habit-item__name">{habit.name}</span>
-            <div className='imgD'  onClick={()=>{handleEdit(habit)}}> <img  className='editLogo' src='https://img.icons8.com/?size=1x&id=9i9HlS0bGONj&format=png'></img> </div>
+            
+            <div className='imgD'  onClick={()=>{handleEdit(habit)}}> <img  className='editLogo' src='https://img.icons8.com/?size=1x&id=9i9HlS0bGONj&format=png'></img><span className="habit-item__name">&emsp;{habit.name.length > 10 ? habit.name.substring(0,10)+'...':habit.name}</span> </div>
             <div className="habit-item__buttons">
               <button className="habit-item__button habit-item__view-button" onClick={() => handleViewHabit(habit)}>
                <img src='https://img.icons8.com/?size=1x&id=10053&format=png'></img>  View Habit
