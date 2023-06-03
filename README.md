@@ -7,7 +7,7 @@ A cool app to track your daily routine habits. Do it Now!
 
 ## Features
 
-- Add Habits
+- View Habits
 - Add/ Remove habits from list
 - Persisiting records
 - APIs, Redux, Hooks
