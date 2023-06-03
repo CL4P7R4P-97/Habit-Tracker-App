@@ -43,13 +43,13 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
     return <div>Loading...</div>;
   }
 
-  if (error) {
-    return <div>Error: {error}</div>;
+  if (habits.length === 0) {
+    return <NoHabitsFound />;
   }
 
   return (
     <div className="habit-list">
-      {habits.length !== 0 ? (
+      {habits.length !== 0 &&(
         habits.map((habit) => (
           <div key={habit.id} className="habit-item">
             
@@ -75,9 +75,9 @@ const HabitList = ({ habits, loading, error, onDeleteHabit, onStatusChange }) =>
           </div>
          
         ))
-      ) : (
-        <NoHabitsFound />
       )}
+
+     
     </div>
   );
 };

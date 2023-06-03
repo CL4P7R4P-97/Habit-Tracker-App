@@ -2,6 +2,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 20px;
+  align-items: center; /* Align items vertically */
+  justify-content: center; /* Align items horizontally */
 }
 
 .habit-item {
@@ -9,7 +11,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
-  background-color: #6ad861;
+  background-color: #434146;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgb(15, 15, 15);
 }
